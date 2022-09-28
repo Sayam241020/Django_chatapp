@@ -85,7 +85,7 @@ let toggleCamera = async (e) => {
     console.log('TOGGLE CAMERA TRIGGERED')
     if(localTracks[1].muted){
         await localTracks[1].setMuted(false)
-        e.target.style.backgroundColor = '#fff'
+        e.target.style.backgroundColor = '#50b208'
     }else{
         await localTracks[1].setMuted(true)
         e.target.style.backgroundColor = 'rgb(255, 80, 80, 1)'
@@ -96,7 +96,7 @@ let toggleMic = async (e) => {
     console.log('TOGGLE MIC TRIGGERED')
     if(localTracks[0].muted){
         await localTracks[0].setMuted(false)
-        e.target.style.backgroundColor = '#fff'
+        e.target.style.backgroundColor = '#50b208'
     }else{
         await localTracks[0].setMuted(true)
         e.target.style.backgroundColor = 'rgb(255, 80, 80, 1)'
