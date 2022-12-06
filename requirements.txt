@@ -5,3 +5,5 @@ sqlparse
 tzdata
 whitenoise
 gunicorn
+pip
+requests
