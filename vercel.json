@@ -1,0 +1,13 @@
+{
+    "builds": [{
+        "src": "Django_chatapp/wsgi.py",
+        "use": "@ardnt/vercel-python-wsgi",
+        "config": { "maxLambdaSize": "15mb" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "Django_chatapp/wsgi.py"
+        }
+    ]
+}
