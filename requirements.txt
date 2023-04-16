@@ -3,7 +3,5 @@ asgiref
 Django
 sqlparse
 tzdata
-whitenoise
-gunicorn
 pip
 requests
